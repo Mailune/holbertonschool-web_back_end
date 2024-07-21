@@ -11,12 +11,11 @@ class Building {
     return this._sqft;
   }
 
-  // Disable the ESLint rule for this specific method
-  /* eslint-disable class-methods-use-this */
+  // Disable the ESLint rule for this method
+  /* eslint-disable-next-line class-methods-use-this */
   evacuationWarningMessage() {
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
-  /* eslint-enable class-methods-use-this */
 }
 
 export default Building;
