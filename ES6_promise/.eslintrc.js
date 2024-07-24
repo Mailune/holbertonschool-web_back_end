@@ -1,4 +1,7 @@
 // .eslintrc.js
+const eslintConfigAirbnbBase = require('eslint-config-airbnb-base');
+const eslintPluginJest = require('eslint-plugin-jest');
+
 module.exports = {
   env: {
     browser: false,
@@ -26,17 +29,6 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
-    'import/extensions': ['error', 'ignorePackages', {
-      js: 'always',
-      jsx: 'always',
-    }],
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx'],
-      },
-    },
   },
   overrides: [
     {
