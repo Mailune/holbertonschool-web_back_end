@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 """
-This module defines and annotates several variables with specific types and values:
+This module defines and annotates several variables 
+with specific types and values:
 - a: an integer initialized to 1
 - pi: a float initialized to 3.14
 - i_understand_annotations: a boolean initialized to True
