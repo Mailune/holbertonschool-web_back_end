@@ -3,6 +3,8 @@
 """Function that takes an integer max_delay and returns an asyncio.Task"""
 
 import asyncio
+import random
+from typing import List
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
