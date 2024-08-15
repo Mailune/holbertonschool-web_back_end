@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 """
-This module defines a type-annotated function that takes a list of strings as input
+This module defines a type-annotated function
+that takes a list of strings as input
 and returns a list of tuples.
 Each tuple contains a string and its length.
 """
