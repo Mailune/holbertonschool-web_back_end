@@ -18,7 +18,7 @@ def log_stats():
     # Retrieve the total number of logs
     total_logs = collection.count_documents({})
 
-    # Retrieve the counts for each HTTP method using dictionary comprehension
+    # Retrieve counts for each HTTP method using dictionary comprehension
     methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
     method_counts = {
         method: collection.count_documents({"method": method})
